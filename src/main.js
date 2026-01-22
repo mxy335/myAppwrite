@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const YT_WARPOUT = process.env.YT_WARPOUT || false;   // 设置为true时强制使用warp出站访问youtube,false时自动检测是否设置warp出站
+const YT_WARPOUT = process.env.YT_WARPOUT || true;   // 设置为true时强制使用warp出站访问youtube,false时自动检测是否设置warp出站
 const FILE_PATH = process.env.FILE_PATH || './.npm';  // sub.txt订阅文件路径
 const SUB_PATH = process.env.SUB_PATH || 'sub';       // 订阅sub路径，默认为sub,例如：https://google.com/sub
 const UUID = process.env.UUID || '2ddd676e-74de-4f54-9f99-8e6e3bd42f6c';  // UUID,如果开启了哪吒v1,也会使用此uuid
