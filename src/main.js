@@ -15,7 +15,7 @@ const HY2_PORT = process.env.HY2_PORT || '';                 // hy2端口，支�
 const REALITY_PORT = process.env.REALITY_PORT || '';         // reality端口，支持多端口的可以填写，否则留空
 const CFIP = process.env.CFIP || 'cf.090227.xyz';            // 优选域名或优选IP
 const CFPORT = process.env.CFPORT || 443;                    // 优选域名或优选IP对应端口    
-const NAME = process.env.NAME || 'Appwrite';                 // 节点名称
+const NAME = process.env.NAME || 'Appwrite-us';                 // 节点名称
 const CHAT_ID = process.env.CHAT_ID || '';                   // Telegram chat_id  两个变量不全不推送节点到TG 
 const BOT_TOKEN = process.env.BOT_TOKEN || '';               // Telegram bot_token 两个变量不全不推送节点到TG 
 
